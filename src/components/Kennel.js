@@ -11,9 +11,9 @@ const Kennel = () => {
   });
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col gap-4">
       <div className="flex flex-row items-center justify-center mt-7 mb-7">
-        <h2 className="text-4xl font-MedievalSharp">Manage your kennel</h2>
+        <h2 className="text-5xl font-MedievalSharp">Manage your kennel</h2>
       </div>
       <div className="flex flex-row items-center justify-center mt-2 mb-7">
         <h2 className="text-4xl font-MedievalSharp">{`Total bones owed: ${totalBones()}`}</h2>

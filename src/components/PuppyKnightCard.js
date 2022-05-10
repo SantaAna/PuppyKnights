@@ -10,8 +10,8 @@ const PuppyKnightCard = ({ image, knightName, knightRole, boneCost }) => {
   knightData.boneCost = boneCost;
 
   return (
-    <div className="w-1/3 font-MedievalSharp flex flex-col content-center justify-center bg-slate-300 shadow-slate-600 drop-shadow-xl border-black border-2 text-xl">
-      <img src={image} alt="" />
+    <div className="w-1/3 font-MedievalSharp flex flex-col content-center justify-center bg-slate-100 shadow-slate-600 drop-shadow-xl border-black border-2 text-xl rounded-md p-2">
+      <img src={image} alt="" className="rounded-md" />
       <p className="knight-name">{knightName}</p>
       <p className="knight-role">{`Role: ${knightRole}`}</p>
       <p className="Knight-Bones"> {`Bones: ${boneCost}`}</p>

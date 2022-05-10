@@ -1,5 +1,7 @@
 import PuppyKnightCard from "./PuppyKnightCard";
 import BigKnight from "../images/big-chonk-knight.jpg";
+import SwordsMan from "../images/Swordsman.jpg";
+import Paladin from "../images/paladin.jpg";
 
 const RecruitKnight = () => {
   return (
@@ -15,16 +17,16 @@ const RecruitKnight = () => {
           boneCost={12}
         />
         <PuppyKnightCard
-          image={BigKnight}
-          knightName="Heavy Knight"
-          knightRole={"Tank"}
-          boneCost={12}
+          image={SwordsMan}
+          knightName="Blade Master"
+          knightRole={"Damage"}
+          boneCost={8}
         />
         <PuppyKnightCard
-          image={BigKnight}
-          knightName="Heavy Knight"
-          knightRole={"Tank"}
-          boneCost={12}
+          image={Paladin}
+          knightName="Paladin"
+          knightRole={"Support"}
+          boneCost={9}
         />
       </div>
     </div>
