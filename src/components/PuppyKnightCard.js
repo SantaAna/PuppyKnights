@@ -14,8 +14,9 @@ const PuppyKnightCard = ({ image, knightName, knightRole }) => {
       <button
         className="bg-black text-zinc-200"
         onClick={() => {
-          console.log("knight added")
-          addKnight(knightData)}}
+          console.log("knight added");
+          addKnight(knightData);
+        }}
       >
         Hire Knight
       </button>
