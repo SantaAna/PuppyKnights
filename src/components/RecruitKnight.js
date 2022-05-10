@@ -12,16 +12,19 @@ const RecruitKnight = () => {
           image={BigKnight}
           knightName="Heavy Knight"
           knightRole={"Tank"}
+          boneCost={12}
         />
         <PuppyKnightCard
           image={BigKnight}
           knightName="Heavy Knight"
           knightRole={"Tank"}
+          boneCost={12}
         />
         <PuppyKnightCard
           image={BigKnight}
           knightName="Heavy Knight"
           knightRole={"Tank"}
+          boneCost={12}
         />
       </div>
     </div>
